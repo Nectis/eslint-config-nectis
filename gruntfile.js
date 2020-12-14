@@ -14,5 +14,5 @@ module.exports = (_grunt) => {
     });
     _grunt.loadNpmTasks('grunt-bump');
     _grunt.loadNpmTasks('grunt-run');
-    _grunt.registerTask('release', ['bump-only', 'run:publish', 'bump-commit']);
+    _grunt.registerTask('release', ['bump', 'run:publish']);
 };
