@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nectis",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Nectis/eslint-config-nectis/issues"
   },
-  "homepage": "https://github.com/Nectis/eslint-config-nectis#readme"
+  "homepage": "https://github.com/Nectis/eslint-config-nectis#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-bump": "^0.8.0",
+    "grunt-publish": "^1.0.0"
+  }
 }
