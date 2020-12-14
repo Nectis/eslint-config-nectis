@@ -1,4 +1,19 @@
 {
   "name": "eslint-config-nectis",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nectis/eslint-config-nectis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nectis/eslint-config-nectis/issues"
+  },
+  "homepage": "https://github.com/Nectis/eslint-config-nectis#readme"
 }
