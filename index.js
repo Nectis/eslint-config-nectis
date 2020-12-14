@@ -162,7 +162,7 @@ module.exports = {
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
         "no-undef-init": "error",
-        "no-undefined": "error",
+        "no-undefined": "off",
         "no-unused-vars": "warn",
         "no-use-before-define": "off",
         // Stylistic Issues - These rules relate to style guidelines.
