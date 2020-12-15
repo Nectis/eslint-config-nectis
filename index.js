@@ -5,13 +5,18 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "extends": [],
+    "extends": [
+        // "eslint:recommended"
+    ],
     "globals": {},
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": [],
+    "plugins": [
+        'import',
+        'standard'
+    ],
     "root": true,
     "rules": {
         // ESLint: Possible Errors - These rules relate to possible syntax or logic errors.
@@ -355,6 +360,21 @@ module.exports = {
         "sort-imports": "error",
         "symbol-description": "error",
         "template-curly-spacing": "error",
-        "yield-star-spacing": "error"
+        "yield-star-spacing": "error",
+        // Import
+        "import/default": "error",
+        "import/first": "off",
+        "import/export": "error",
+        "import/extensions": "off",
+        "import/named": "error",
+        "import/namespace": "error",
+        "import/no-extraneous-dependencies": "off",
+        "import/no-unresolved": "off",
+        // Standard
+        "standard/array-bracket-even-spacing": "warn",
+        "standard/object-curly-even-spacing": [
+            1,
+            "either"
+        ]
     }
 };
