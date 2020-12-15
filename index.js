@@ -216,15 +216,15 @@ module.exports = {
         "lines-around-comment": "error",
         "lines-between-class-members": "error",
         "max-depth": [
-            "error",
+            "warn",
             5
         ],
         "max-len": [
-            "error",
+            "warn",
             200
         ],
         "max-lines": [
-            "error",
+            "warn",
             1500
         ],
         "max-lines-per-function": [
@@ -233,17 +233,17 @@ module.exports = {
         ],
         "max-nested-callbacks": "error",
         "max-params": [
-            "error",
+            "warn",
             {
                 "max": 10
             }
         ],
         "max-statements": [
-            "error",
+            "warn",
             50
         ],
         "max-statements-per-line": [
-            "error",
+            "warn",
             {
                 "max": 3
             }
@@ -263,7 +263,7 @@ module.exports = {
         "no-multi-assign": "error",
         "no-multiple-empty-lines": "error",
         "no-negated-condition": "error",
-        "no-nested-ternary": "error",
+        "no-nested-ternary": "off",
         "no-new-object": "error",
         "no-plusplus": "off",
         "no-restricted-syntax": "error",
