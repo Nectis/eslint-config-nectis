@@ -186,7 +186,7 @@ module.exports = {
         "camelcase": "error",
         "capitalized-comments": "warn",
         "comma-dangle": "warn",
-        "comma-spacing": "error",
+        "comma-spacing": "warn",
         "comma-style": "error",
         "computed-property-spacing": "error",
         "consistent-this": "error",
