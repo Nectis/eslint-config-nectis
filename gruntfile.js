@@ -49,8 +49,10 @@ module.exports = (_grunt) => {
     _grunt.loadNpmTasks('grunt-prompt');
 
     _grunt.registerTask('build', ['run:publish']);
-    _grunt.registerTask('push', ['bump']);
-    _grunt.registerTask('pushWithMessage', ['bump-only', 'prompt:commit', 'bump-commit']);
+    _grunt.registerTask('outdated', ['run:outdated']);
     _grunt.registerTask('release', ['bump', 'run:publish']);
+    _grunt.registerTask('sync', ['bump']);
+    _grunt.registerTask('syncWithMessage', ['bump-only', 'prompt:commit', 'bump-commit']);
     _grunt.registerTask('test', ['run:test']);
+    _grunt.registerTask('update', ['run:update']);
 };
