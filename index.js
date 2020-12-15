@@ -1,17 +1,17 @@
 module.exports = {
     "env": {
-        "browser": true,
+        // "browser": true,
         // "commonjs": true,
         // "es6": true,
-        "node": true
+        // "node": true
     },
     "extends": [
         // "eslint:recommended"
     ],
     "globals": {},
     "parserOptions": {
-        "ecmaVersion": 2018
-        // "sourceType": "module"
+        "ecmaVersion": 2018,
+        "sourceType": "module"
     },
     "plugins": [
         'import',
