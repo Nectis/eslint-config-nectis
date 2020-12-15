@@ -69,7 +69,7 @@ module.exports = {
         "accessor-pairs": "error",
         "array-callback-return": "error",
         "block-scoped-var": "error",
-        "class-methods-use-this": "error",
+        "class-methods-use-this": "warn",
         "complexity": [
             "error",
             35
@@ -250,7 +250,7 @@ module.exports = {
         ],
         "multiline-comment-style": "off",
         "multiline-ternary": "off",
-        "new-cap": "error",
+        "new-cap": "warn",
         "new-parens": "error",
         "newline-per-chained-call": "warn",
         "no-array-constructor": "error",
