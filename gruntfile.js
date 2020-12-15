@@ -34,7 +34,7 @@ module.exports = (_grunt) => {
                 cmd: 'npx'
             },
             test: {
-                args: ['WARNING: No test implemented.'],
+                args: ['WARNING: No tests implemented.'],
                 cmd: 'echo'
             },
             update: {

@@ -2,7 +2,7 @@ module.exports = {
     "env": {
         "browser": true,
         // "commonjs": true,
-        "es6": true,
+        // "es6": true,
         "node": true
     },
     "extends": [
@@ -10,8 +10,8 @@ module.exports = {
     ],
     "globals": {},
     "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
+        "ecmaVersion": 2018
+        // "sourceType": "module"
     },
     "plugins": [
         'import',

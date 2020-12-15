@@ -9,7 +9,7 @@
         "url": "git+https://github.com/Nectis/eslint-config-nectis.git"
     },
     "main": "index.js",
-    "version": "1.1.29",
+    "version": "1.1.30",
     "devDependencies": {
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-standard": "^5.0.0",
