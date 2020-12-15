@@ -10,7 +10,7 @@ module.exports = {
     ],
     "globals": {},
     "parserOptions": {
-        "ecmaVersion": 2018,
+        "ecmaVersion": 2020,
         "sourceType": "module"
     },
     "plugins": [
@@ -23,7 +23,7 @@ module.exports = {
         "for-direction": "error",
         "getter-return": "error",
         "no-async-promise-executor": "error",
-        "no-await-in-loop": "error",
+        "no-await-in-loop": "warn",
         "no-compare-neg-zero": "error",
         "no-cond-assign": "error",
         "no-console": "warn",
@@ -38,7 +38,7 @@ module.exports = {
         "no-empty-character-class": "error",
         "no-ex-assign": "error",
         "no-extra-boolean-cast": "error",
-        "no-extra-parens": "error",
+        "no-extra-parens": "off",
         "no-extra-semi": "error",
         "no-func-assign": "error",
         "no-import-assign": "error",
@@ -61,7 +61,7 @@ module.exports = {
         "no-unsafe-negation": "error",
         "no-unsafe-optional-chaining": "error",
         "no-useless-backreference": "error",
-        "require-atomic-updates": "error",
+        "require-atomic-updates": "warn",
         "use-isnan": "error",
         "valid-jsdoc": "error",
         "valid-typeof": "error",
