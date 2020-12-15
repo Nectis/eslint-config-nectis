@@ -1,1 +1,1 @@
-# Common ESLint configuration for Nectis
+# Common ESLint Configuration for Nectis
