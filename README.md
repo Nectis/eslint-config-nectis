@@ -1,1 +1,1 @@
-# eslint-config-nectis
+# Common ESLint configuration for Nectis

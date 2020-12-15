@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
+        // "commonjs": true,
         "es6": true,
         "node": true
     },
@@ -13,7 +14,7 @@ module.exports = {
     "plugins": [],
     "root": true,
     "rules": {
-        // Possible Errors - These rules relate to possible syntax or logic errors.
+        // ESLint: Possible Errors - These rules relate to possible syntax or logic errors.
         "for-direction": "error",
         "getter-return": "error",
         "no-async-promise-executor": "error",
@@ -59,7 +60,7 @@ module.exports = {
         "use-isnan": "error",
         "valid-jsdoc": "error",
         "valid-typeof": "error",
-        // Best Practices - These rules relate to better ways of doing things to help avoid problems.
+        // ESLint: Best Practices - These rules relate to better ways of doing things to help avoid problems.
         "accessor-pairs": "error",
         "array-callback-return": "error",
         "block-scoped-var": "error",
@@ -148,12 +149,12 @@ module.exports = {
         "vars-on-top": "error",
         "wrap-iife": "error",
         "yoda": "error",
-        // Strict Mode - These rules relate to strict mode directives.
+        // ESLint: Strict Mode - These rules relate to strict mode directives.
         "strict": [
             "error",
             "safe"
         ],
-        // Variables - These rules relate to variable declarations.
+        // ESLint: Variables - These rules relate to variable declarations.
         "init-declarations": "error",
         "no-delete-var": "error",
         "no-label-var": "error",
@@ -165,7 +166,7 @@ module.exports = {
         "no-undefined": "off",
         "no-unused-vars": "warn",
         "no-use-before-define": "off",
-        // Stylistic Issues - These rules relate to style guidelines.
+        // ESLint: Stylistic Issues - These rules relate to style guidelines.
         "array-bracket-newline": "off",
         "array-bracket-spacing": "error",
         "array-element-newline": "off",
@@ -259,11 +260,11 @@ module.exports = {
         "no-negated-condition": "error",
         "no-nested-ternary": "error",
         "no-new-object": "error",
-        "no-plusplus": "error",
+        "no-plusplus": "off",
         "no-restricted-syntax": "error",
         "no-tabs": "error",
         "no-ternary": "off",
-        "no-trailing-spaces": "error",
+        "no-trailing-spaces": "warn",
         "no-underscore-dangle": "off",
         "no-unneeded-ternary": "error",
         "no-whitespace-before-property": "error",
@@ -294,13 +295,13 @@ module.exports = {
             "as-needed"
         ],
         "quotes": [
-            "error",
+            "warn",
             "single"
         ],
-        // "semi": [
-        //     "error",
-        //     "always"
-        // ],
+        "semi": [
+            "warn",
+            "always"
+        ],
         "semi-spacing": "warn",
         "semi-style": "error",
         "sort-keys": "warn",
@@ -322,7 +323,7 @@ module.exports = {
         "template-tag-spacing": "error",
         "unicode-bom": "error",
         "wrap-regex": "error",
-        // ECMAScript 6 - These rules relate to ES6, also known as ES2015.
+        // ESLint: ECMAScript 6 - These rules relate to ES6, also known as ES2015.
         "arrow-body-style": "error",
         "arrow-parens": "error",
         "arrow-spacing": "error",
