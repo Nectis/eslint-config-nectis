@@ -96,8 +96,8 @@ module.exports = {
         "no-case-declarations": "error",
         "no-constructor-return": "error",
         "no-div-regex": "error",
-        "no-else-return": "error",
-        "no-empty-function": "error",
+        "no-else-return": "warn",
+        "no-empty-function": "warn",
         "no-empty-pattern": "error",
         "no-eq-null": "error",
         "no-eval": "error",
@@ -235,7 +235,7 @@ module.exports = {
         "max-params": [
             "warn",
             {
-                "max": 10
+                "max": 15
             }
         ],
         "max-statements": [
@@ -252,7 +252,7 @@ module.exports = {
         "multiline-ternary": "off",
         "new-cap": "error",
         "new-parens": "error",
-        "newline-per-chained-call": "error",
+        "newline-per-chained-call": "warn",
         "no-array-constructor": "error",
         "no-bitwise": "error",
         "no-continue": "off",
