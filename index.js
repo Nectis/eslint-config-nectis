@@ -295,7 +295,7 @@ module.exports = {
             "as-needed"
         ],
         "quotes": [
-            "error",
+            "warn",
             "single"
         ],
         "semi": [

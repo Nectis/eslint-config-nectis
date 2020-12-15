@@ -2,6 +2,7 @@ module.exports = (_grunt) => {
     _grunt.initConfig({
         bump: {
             options: {
+                commitFiles: ['-a'],
                 commitMessage: '<%if(grunt.config("commitMessage")){%><%=grunt.config("commitMessage")%><%}else{%>Release v%VERSION%<%}%>',
                 pushTo: 'origin'
             }
