@@ -25,6 +25,10 @@ module.exports = (_grunt) => {
         },
 
         run: {
+            outdated: {
+                args: ['npm', 'outdated'],
+                cmd: 'npx'
+            },
             publish: {
                 args: ['publish'],
                 cmd: 'npx'
@@ -32,6 +36,10 @@ module.exports = (_grunt) => {
             test: {
                 args: ['WARNING: No test implemented.'],
                 cmd: 'echo'
+            },
+            update: {
+                args: ['npm', 'update', '--save/--save-dev'],
+                cmd: 'npx'
             }
         }
     });
