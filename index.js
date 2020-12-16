@@ -6,8 +6,8 @@ module.exports = {
         "node": true
     },
     "extends": [
-        "eslint:recommended", // Base ESLint recommended rules.
-        "standard"
+        // "eslint:recommended", // Base ESLint recommended rules.
+        // "standard"
     ],
     "globals": {},
     "parserOptions": {
