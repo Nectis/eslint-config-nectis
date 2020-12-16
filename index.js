@@ -35,7 +35,7 @@ module.exports = {
         "no-dupe-else-if": "error",
         "no-dupe-keys": "error",
         "no-duplicate-case": "error",
-        "no-empty": "error",
+        "no-empty": "warn",
         "no-empty-character-class": "error",
         "no-ex-assign": "error",
         "no-extra-boolean-cast": "error",
@@ -64,7 +64,7 @@ module.exports = {
         "no-useless-backreference": "error",
         "require-atomic-updates": "warn",
         "use-isnan": "error",
-        "valid-jsdoc": "error",
+        "valid-jsdoc": ["warn", { "requireReturn": false }],
         "valid-typeof": "error",
         // ESLint: Best Practices - These rules relate to better ways of doing things to help avoid problems.
         "accessor-pairs": "error",
@@ -76,7 +76,7 @@ module.exports = {
             35
         ],
         "consistent-return": "error",
-        "curly": "error",
+        "curly": "warn",
         "default-case": "error",
         "default-case-last": "error",
         "default-param-last": "error",
@@ -117,7 +117,7 @@ module.exports = {
         "no-lone-blocks": "error",
         "no-loop-func": "error",
         "no-magic-numbers": "off",
-        "no-multi-spaces": "error",
+        "no-multi-spaces": "warn",
         "no-multi-str": "error",
         "no-new": "error",
         "no-new-func": "error",
@@ -147,7 +147,7 @@ module.exports = {
         "no-void": "error",
         "no-warning-comments": "off",
         "no-with": "error",
-        "prefer-named-capture-group": "error",
+        "prefer-named-capture-group": "warn",
         "prefer-promise-reject-errors": "error",
         "prefer-regex-literals": "error",
         "radix": "error",
@@ -176,9 +176,9 @@ module.exports = {
         "array-bracket-newline": "off",
         "array-bracket-spacing": "error",
         "array-element-newline": "off",
-        "block-spacing": "error",
+        "block-spacing": "warn",
         "brace-style": [
-            "error",
+            "warn",
             "1tbs",
             {
                 "allowSingleLine": true
@@ -199,7 +199,7 @@ module.exports = {
         "function-call-argument-newline": "off",
         "function-paren-newline": "warn",
         "id-denylist": "error",
-        "id-length": "error",
+        "id-length": "warn",
         "id-match": "error",
         "implicit-arrow-linebreak": "error",
         "indent": [
@@ -214,8 +214,8 @@ module.exports = {
         "keyword-spacing": "error",
         "line-comment-position": "off",
         "linebreak-style": "error",
-        "lines-around-comment": "error",
-        "lines-between-class-members": "error",
+        "lines-around-comment": "warn",
+        "lines-between-class-members": "warn",
         "max-depth": [
             "warn",
             5
@@ -259,7 +259,7 @@ module.exports = {
         "no-continue": "off",
         "no-inline-comments": "off",
         "no-lonely-if": "warn",
-        "no-mixed-operators": "error",
+        "no-mixed-operators": "warn",
         "no-mixed-spaces-and-tabs": "error",
         "no-multi-assign": "error",
         "no-multiple-empty-lines": "error",
@@ -282,14 +282,14 @@ module.exports = {
         ],
         "object-property-newline": "off",
         "one-var": [
-            "error",
+            "warn",
             {
                 "var": "never",
                 "let": "never",
                 "const": "never"
             }
         ],
-        "one-var-declaration-per-line": "error",
+        "one-var-declaration-per-line": "warn",
         "operator-assignment": "error",
         "operator-linebreak": "error",
         "padded-blocks": "off",
@@ -330,8 +330,8 @@ module.exports = {
         "unicode-bom": "error",
         "wrap-regex": "error",
         // ESLint: ECMAScript 6 - These rules relate to ES6, also known as ES2015.
-        "arrow-body-style": "error",
-        "arrow-parens": "error",
+        "arrow-body-style": "warn",
+        "arrow-parens": "warn",
         "arrow-spacing": "error",
         "constructor-super": "error",
         "generator-star-spacing": "error",
@@ -360,7 +360,7 @@ module.exports = {
         "rest-spread-spacing": "error",
         "sort-imports": "error",
         "symbol-description": "error",
-        "template-curly-spacing": "error",
+        "template-curly-spacing": "warn",
         "yield-star-spacing": "error",
         // Import
         "import/default": "error",
