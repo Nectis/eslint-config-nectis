@@ -71,27 +71,18 @@ module.exports = {
         "array-callback-return": "error",
         "block-scoped-var": "error",
         "class-methods-use-this": "warn",
-        "complexity": [
-            "error",
-            35
-        ],
+        "complexity": ["error", 35],
         "consistent-return": "error",
         "curly": "warn",
         "default-case": "error",
         "default-case-last": "error",
         "default-param-last": "error",
-        "dot-location": [
-            "error",
-            "property"
-        ],
+        "dot-location": ["error", "property"],
         "dot-notation": "error",
         "eqeqeq": "error",
         "grouped-accessor-pairs": "error",
         "guard-for-in": "error",
-        "max-classes-per-file": [
-            "warn",
-            5
-        ],
+        "max-classes-per-file": ["warn", 5],
         "no-alert": "error",
         "no-caller": "error",
         "no-case-declarations": "error",
@@ -156,10 +147,7 @@ module.exports = {
         "wrap-iife": "error",
         "yoda": "error",
         // ESLint: Strict Mode - These rules relate to strict mode directives.
-        "strict": [
-            "error",
-            "safe"
-        ],
+        "strict": ["error", "safe"],
         // ESLint: Variables - These rules relate to variable declarations.
         "init-declarations": "error",
         "no-delete-var": "error",
@@ -177,14 +165,8 @@ module.exports = {
         "array-bracket-spacing": "error",
         "array-element-newline": "off",
         "block-spacing": "warn",
-        "brace-style": [
-            "warn",
-            "1tbs",
-            {
-                "allowSingleLine": true
-            }
-        ],
-        "camelcase": "warn",
+        "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+        "camelcase": ["warn", { "allow": ["^.*_(auditDone|click|load|set)"] }],
         "capitalized-comments": "warn",
         "comma-dangle": "warn",
         "comma-spacing": "warn",
@@ -202,13 +184,7 @@ module.exports = {
         "id-length": "warn",
         "id-match": "error",
         "implicit-arrow-linebreak": "error",
-        "indent": [
-            "warn",
-            4,
-            {
-                "SwitchCase": 1
-            }
-        ],
+        "indent": ["warn", 4, { "SwitchCase": 1 }],
         "jsx-quotes": "error",
         "key-spacing": "error",
         "keyword-spacing": "error",
@@ -216,39 +192,14 @@ module.exports = {
         "linebreak-style": "error",
         "lines-around-comment": "warn",
         "lines-between-class-members": "warn",
-        "max-depth": [
-            "warn",
-            5
-        ],
-        "max-len": [
-            "warn",
-            200
-        ],
-        "max-lines": [
-            "warn",
-            1500
-        ],
-        "max-lines-per-function": [
-            "warn",
-            80
-        ],
+        "max-depth": ["warn", 5],
+        "max-len": ["warn", 200],
+        "max-lines": ["warn", 1500],
+        "max-lines-per-function": ["warn", 80],
         "max-nested-callbacks": "error",
-        "max-params": [
-            "warn",
-            {
-                "max": 15
-            }
-        ],
-        "max-statements": [
-            "warn",
-            50
-        ],
-        "max-statements-per-line": [
-            "warn",
-            {
-                "max": 3
-            }
-        ],
+        "max-params": ["warn", { "max": 15 }],
+        "max-statements": ["warn", 50],
+        "max-statements-per-line": ["warn", { "max": 3 }],
         "multiline-comment-style": "off",
         "multiline-ternary": "off",
         "new-cap": "warn",
@@ -276,19 +227,9 @@ module.exports = {
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": "error",
         "object-curly-newline": "error",
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
+        "object-curly-spacing": ["error", "always"],
         "object-property-newline": "off",
-        "one-var": [
-            "warn",
-            {
-                "var": "never",
-                "let": "never",
-                "const": "never"
-            }
-        ],
+        "one-var": ["warn", { "var": "never", "let": "never", "const": "never" }],
         "one-var-declaration-per-line": "warn",
         "operator-assignment": "error",
         "operator-linebreak": "error",
@@ -296,31 +237,15 @@ module.exports = {
         "padding-line-between-statements": "error",
         "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "error",
-        "quote-props": [
-            "error",
-            "as-needed"
-        ],
-        "quotes": [
-            "warn",
-            "single"
-        ],
-        "semi": [
-            "warn",
-            "always"
-        ],
+        "quote-props": ["error", "as-needed"],
+        "quotes": ["warn", "single"],
+        "semi": ["warn", "always"],
         "semi-spacing": "warn",
         "semi-style": "error",
         "sort-keys": "warn",
         "sort-vars": "error",
         "space-before-blocks": "error",
-        "space-before-function-paren": [
-            "warn",
-            {
-                "anonymous": "always",
-                "named": "never",
-                "asyncArrow": "always"
-            }
-        ],
+        "space-before-function-paren": ["warn", { "anonymous": "always", "named": "never", "asyncArrow": "always" }],
         "space-in-parens": "error",
         "space-infix-ops": "error",
         "space-unary-ops": "error",
@@ -373,9 +298,6 @@ module.exports = {
         "import/no-unresolved": "off",
         // Standard
         "standard/array-bracket-even-spacing": "warn",
-        "standard/object-curly-even-spacing": [
-            1,
-            "either"
-        ]
+        "standard/object-curly-even-spacing": [1, "either"]
     }
 };
