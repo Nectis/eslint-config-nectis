@@ -275,8 +275,23 @@ module.exports = {
         "no-var": "error",
         "object-shorthand": "warn",
         "prefer-arrow-callback": "warn",
-        "prefer-const": "error",
-        "prefer-destructuring": "warn",
+        "prefer-const": "warn",
+        "prefer-destructuring": [
+            "warn",
+            {
+                "VariableDeclarator": {
+                    "array": false,
+                    "object": true
+                },
+                "AssignmentExpression": {
+                    "array": true,
+                    "object": false
+                }
+            },
+            {
+                "enforceForRenamedProperties": false
+            }
+        ],
         "prefer-numeric-literals": "error",
         "prefer-rest-params": "error",
         "prefer-spread": "error",
