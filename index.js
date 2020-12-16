@@ -172,7 +172,7 @@ module.exports = {
         "comma-spacing": "warn",
         "comma-style": "error",
         "computed-property-spacing": "error",
-        "consistent-this": "error",
+        "consistent-this": "warn",
         "eol-last": "error",
         "func-call-spacing": "error",
         "func-name-matching": "error",
