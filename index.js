@@ -6,12 +6,13 @@ module.exports = {
         // "node": true
     },
     "extends": [
-        // "eslint:recommended"
+        // "eslint:recommended", // Base ESLint recommended rules.
+        // "standard"
     ],
     "globals": {},
     "parserOptions": {
-        "ecmaVersion": 2020,
-        "sourceType": "module"
+        "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features.
+        "sourceType": "module" // Allows for the use of imports.
     },
     "plugins": [
         'import',
@@ -88,8 +89,8 @@ module.exports = {
         "grouped-accessor-pairs": "error",
         "guard-for-in": "error",
         "max-classes-per-file": [
-            "error",
-            1
+            "warn",
+            5
         ],
         "no-alert": "error",
         "no-caller": "error",
@@ -183,7 +184,7 @@ module.exports = {
                 "allowSingleLine": true
             }
         ],
-        "camelcase": "error",
+        "camelcase": "warn",
         "capitalized-comments": "warn",
         "comma-dangle": "warn",
         "comma-spacing": "warn",

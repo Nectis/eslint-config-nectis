@@ -11,3 +11,10 @@ Common ESLint configuration for Nectis.
 - syncWithMessage (cmd+shift+m) - Prompt for commit message and synchronise with git repository.
 - test (cmd+shift+t) - Run tests.
 - update (cmd+shift+u) - Update dependencies to latest version.
+
+
+## Pending
+
+- eslint-config-standard no implemented.
+- eslint-plugin-node no implemented.
+- eslint-plugin-promise no implemented.
