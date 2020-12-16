@@ -202,7 +202,7 @@ module.exports = {
         "max-statements-per-line": ["warn", { "max": 3 }],
         "multiline-comment-style": "off",
         "multiline-ternary": "off",
-        "new-cap": ["warn", { "capIsNewExceptions": ["Collection", "Count", "Create", "CreateKey", "Database", "Databases", "Delete", "Documents", "Get", "Lambda", "Let", "Map", "Merge", "Paginate", "Ref", "Replace", "Select", "Var"] }],
+        "new-cap": ["warn", { "capIsNewExceptions": ["Collection", "Count", "Create", "CreateKey", "Database", "Databases", "Delete", "Documents", "Get", "Lambda", "Let", "Map", "Merge", "Paginate", "Ref", "Replace", "Select", "Var"], "properties": false }],
         "new-parens": "error",
         "newline-per-chained-call": "warn",
         "no-array-constructor": "error",
