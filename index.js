@@ -202,7 +202,7 @@ module.exports = {
         "max-statements-per-line": ["warn", { "max": 3 }],
         "multiline-comment-style": "off",
         "multiline-ternary": "off",
-        "new-cap": ["warn", { "capIsNewExceptions": ["Collection", "Count", "Create", "CreateKey", "Databases", "Delete", "Documents", "Get", "Lambda", "Let", "Map", "Merge", "Paginate", "Ref", "Replace", "Select", "Var"] }],
+        "new-cap": ["warn", { "capIsNewExceptions": ["Collection", "Count", "Create", "CreateKey", "Database", "Databases", "Delete", "Documents", "Get", "Lambda", "Let", "Map", "Merge", "Paginate", "Ref", "Replace", "Select", "Var"] }],
         "new-parens": "error",
         "newline-per-chained-call": "warn",
         "no-array-constructor": "error",
@@ -281,7 +281,7 @@ module.exports = {
             {
                 "VariableDeclarator": {
                     "array": false,
-                    "object": true
+                    "object": false
                 },
                 "AssignmentExpression": {
                     "array": true,
@@ -304,13 +304,13 @@ module.exports = {
         "yield-star-spacing": "error",
         // Import
         "import/default": "error",
-        "import/first": "warn",
+        "import/first": "error",
         "import/export": "error",
-        "import/extensions": "warn",
+        "import/extensions": "error",
         "import/named": "error",
         "import/namespace": "error",
-        "import/no-extraneous-dependencies": "warn",
-        "import/no-unresolved": "warn",
+        "import/no-extraneous-dependencies": "error",
+        "import/no-unresolved": "off",
         // Standard
         "standard/array-bracket-even-spacing": "warn",
         "standard/object-curly-even-spacing": [1, "either"]
