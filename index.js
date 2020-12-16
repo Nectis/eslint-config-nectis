@@ -306,7 +306,7 @@ module.exports = {
         "import/default": "error",
         "import/first": "error",
         "import/export": "error",
-        "import/extensions": "error",
+        "import/extensions": ["warn", "never", { "json": "always" }],
         "import/named": "error",
         "import/namespace": "error",
         "import/no-extraneous-dependencies": "error",
