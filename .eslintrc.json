@@ -1,0 +1,15 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "globals": {},
+    "parserOptions": {
+        "ecmaVersion": 2020 // Allows for the parsing of modern ECMAScript features.
+    },
+    "plugins": [],
+    "root": true,
+    "rules": {}
+}
