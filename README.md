@@ -5,6 +5,7 @@ Common ESLint configuration for Nectis.
 ## Commands
 
 - build (cmd+shift+b) - Build the project.
+- lint (cmd+shift+l) - Lint project.
 - outdated (cmd+shift+o) - Check for outdated dependencies.
 - release (cmd+shift+r) - Release the project.
 - sync (cmd+shift+s) - Synchronise with git repository.

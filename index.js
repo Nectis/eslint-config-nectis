@@ -11,13 +11,13 @@ module.exports = {
         "node": true
     },
     "extends": [
-        // "eslint:recommended", // Base ESLint recommended rules.
+        // "eslint:recommended",
         // "standard"
     ],
     "globals": {},
     "parserOptions": {
-        "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features.
-        "sourceType": "module" // Allows for the use of imports.
+        "ecmaVersion": 2020,
+        "sourceType": "module"
     },
     "plugins": [
         'import',
@@ -247,7 +247,7 @@ module.exports = {
         "padding-line-between-statements": "error",
         "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "error",
-        "quote-props": ["error", "as-needed"],
+        "quote-props": ["warn", "as-needed"],
         "quotes": ["warn", "single"],
         "semi": ["warn", "always"],
         "semi-spacing": "warn",
