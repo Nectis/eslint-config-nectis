@@ -1,3 +1,8 @@
+/**
+ * @author Jonathan Terrell for Springbrook S.L.
+ * @license "SEE LICENSE IN LICENSE FILE"
+ */
+
 module.exports = {
     "env": {
         "browser": true,
@@ -20,6 +25,7 @@ module.exports = {
     ],
     "root": true,
     "rules": {
+
         // ESLint: Possible Errors - These rules relate to possible syntax or logic errors.
         "for-direction": "error",
         "getter-return": "error",
@@ -66,6 +72,7 @@ module.exports = {
         "use-isnan": "error",
         "valid-jsdoc": ["warn", { "requireReturn": false }],
         "valid-typeof": "error",
+
         // ESLint: Best Practices - These rules relate to better ways of doing things to help avoid problems.
         "accessor-pairs": "error",
         "array-callback-return": "error",
@@ -146,8 +153,10 @@ module.exports = {
         "vars-on-top": "error",
         "wrap-iife": "error",
         "yoda": "error",
+
         // ESLint: Strict Mode - These rules relate to strict mode directives.
         "strict": ["error", "safe"],
+
         // ESLint: Variables - These rules relate to variable declarations.
         "init-declarations": "error",
         "no-delete-var": "error",
@@ -160,6 +169,7 @@ module.exports = {
         "no-undefined": "off",
         "no-unused-vars": "warn",
         "no-use-before-define": "off",
+
         // ESLint: Stylistic Issues - These rules relate to style guidelines.
         "array-bracket-newline": "off",
         "array-bracket-spacing": "error",
@@ -254,6 +264,7 @@ module.exports = {
         "template-tag-spacing": "error",
         "unicode-bom": "error",
         "wrap-regex": "error",
+
         // ESLint: ECMAScript 6 - These rules relate to ES6, also known as ES2015.
         "arrow-body-style": "warn",
         "arrow-parens": "warn",
@@ -302,6 +313,7 @@ module.exports = {
         "symbol-description": "error",
         "template-curly-spacing": "warn",
         "yield-star-spacing": "error",
+
         // Import
         "import/default": "error",
         "import/first": "error",
@@ -311,6 +323,7 @@ module.exports = {
         "import/namespace": "error",
         "import/no-extraneous-dependencies": "off",
         "import/no-unresolved": "off",
+
         // Standard
         "standard/array-bracket-even-spacing": "warn",
         "standard/object-curly-even-spacing": [1, "either"]
