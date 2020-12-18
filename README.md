@@ -12,7 +12,6 @@ Common ESLint configuration for Nectis.
 - test (cmd+shift+t) - Run tests.
 - update (cmd+shift+u) - Update dependencies to latest version.
 
-
 ## Pending
 
 - eslint-config-standard no implemented.
