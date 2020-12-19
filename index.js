@@ -196,7 +196,7 @@ module.exports = {
         "implicit-arrow-linebreak": "error",
         "indent": ["warn", 4, { "SwitchCase": 1 }],
         "jsx-quotes": "error",
-        "key-spacing": "error",
+        "key-spacing": "warn",
         "keyword-spacing": "error",
         "line-comment-position": "off",
         "linebreak-style": "error",
@@ -308,7 +308,7 @@ module.exports = {
 
         // Import
         "import/default": "error",
-        "import/first": "error",
+        "import/first": "warn",
         "import/export": "error",
         "import/extensions": ["warn", "never", { "json": "always" }],
         "import/named": "error",
