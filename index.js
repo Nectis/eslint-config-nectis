@@ -197,7 +197,7 @@ module.exports = {
         "indent": ["warn", 4, { "SwitchCase": 1 }],
         "jsx-quotes": "error",
         "key-spacing": "warn",
-        "keyword-spacing": "error",
+        "keyword-spacing": "warn",
         "line-comment-position": "off",
         "linebreak-style": "error",
         "lines-around-comment": "warn",
