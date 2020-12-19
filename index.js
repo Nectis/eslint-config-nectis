@@ -232,7 +232,7 @@ module.exports = {
         "no-tabs": "error",
         "no-ternary": "off",
         "no-trailing-spaces": "warn",
-        "no-underscore-dangle": "off",
+        "no-underscore-dangle": "warn",
         "no-unneeded-ternary": "warn",
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": "error",
