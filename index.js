@@ -176,7 +176,7 @@ module.exports = {
         "array-element-newline": "off",
         "block-spacing": "warn",
         "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
-        "camelcase": ["warn", { "allow": ["^.*_(auditDone|click|load|set)"] }],
+        "camelcase": ["warn", { "allow": ["^.*_(auditDone|click|load|nextStep|previewDone|previousStep|stepTransition|set)"] }],
         "capitalized-comments": "warn",
         "comma-dangle": "warn",
         "comma-spacing": "warn",
@@ -187,7 +187,7 @@ module.exports = {
         "func-call-spacing": "error",
         "func-name-matching": "warn",
         "func-names": "warn",
-        "func-style": "error",
+        "func-style": "warn",
         "function-call-argument-newline": "off",
         "function-paren-newline": "off",
         "id-denylist": "error",
@@ -236,8 +236,8 @@ module.exports = {
         "no-unneeded-ternary": "warn",
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": "error",
-        "object-curly-newline": "error",
-        "object-curly-spacing": ["error", "always"],
+        "object-curly-newline": "warn",
+        "object-curly-spacing": ["warn", "always"],
         "object-property-newline": "off",
         "one-var": ["warn", { "var": "never", "let": "never", "const": "never" }],
         "one-var-declaration-per-line": "warn",
@@ -281,7 +281,7 @@ module.exports = {
         "no-restricted-imports": "error",
         "no-this-before-super": "error",
         "no-useless-computed-key": "error",
-        "no-useless-constructor": "error",
+        "no-useless-constructor": "warn",
         "no-useless-rename": "error",
         "no-var": "warn",
         "object-shorthand": "warn",
@@ -290,18 +290,10 @@ module.exports = {
         "prefer-destructuring": [
             "warn",
             {
-                "VariableDeclarator": {
-                    "array": false,
-                    "object": false
-                },
-                "AssignmentExpression": {
-                    "array": true,
-                    "object": false
-                }
+                "VariableDeclarator": { "array": false, "object": false },
+                "AssignmentExpression": { "array": true, "object": false }
             },
-            {
-                "enforceForRenamedProperties": false
-            }
+            { "enforceForRenamedProperties": false }
         ],
         "prefer-numeric-literals": "error",
         "prefer-rest-params": "error",
@@ -326,6 +318,6 @@ module.exports = {
 
         // Standard
         "standard/array-bracket-even-spacing": "warn",
-        "standard/object-curly-even-spacing": [1, "either"]
+        "standard/object-curly-even-spacing": ["warn", "either"]
     }
 };
