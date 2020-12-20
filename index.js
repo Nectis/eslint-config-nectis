@@ -176,7 +176,7 @@ module.exports = {
         "array-element-newline": "off",
         "block-spacing": "warn",
         "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
-        "camelcase": ["warn", { "allow": ["^.*_(auditDone|click|load|nextStep|previewDone|previousStep|stepTransition|set)"] }],
+        "camelcase": ["warn", { "allow": ["^.*_(auditDone|click|highlight|inputStorage|load|nextStep|previewDone|previousStep|stepTransition|set)"] }],
         "capitalized-comments": "warn",
         "comma-dangle": "warn",
         "comma-spacing": "warn",
