@@ -232,7 +232,7 @@ module.exports = {
         "no-tabs": "error",
         "no-ternary": "off",
         "no-trailing-spaces": "warn",
-        "no-underscore-dangle": ["warn", { "allow": ["_id", "__nectisData__"] }],
+        "no-underscore-dangle": ["warn", { "allow": ["_id", "_level", "__nectisData__"] }],
         "no-unneeded-ternary": "warn",
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": "error",
