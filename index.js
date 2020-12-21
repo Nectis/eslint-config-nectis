@@ -291,14 +291,14 @@ module.exports = {
             "warn",
             {
                 "VariableDeclarator": { "array": false, "object": false },
-                "AssignmentExpression": { "array": true, "object": false }
+                "AssignmentExpression": { "array": false, "object": false }
             },
             { "enforceForRenamedProperties": false }
         ],
         "prefer-numeric-literals": "error",
         "prefer-rest-params": "error",
         "prefer-spread": "error",
-        "prefer-template": "error",
+        "prefer-template": "warn",
         "require-yield": "warn",
         "rest-spread-spacing": "error",
         "sort-imports": "warn",
