@@ -1,8 +1,3 @@
-/**
- * @author Jonathan Terrell for Springbrook S.L.
- * @license "SEE LICENSE IN LICENSE FILE"
- */
-
 module.exports = (_grunt) => {
 
     // Initialise configuration.
