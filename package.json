@@ -2,7 +2,7 @@
     "name": "eslint-config-nectis",
     "author": "Jonathan Terrell for Springbrook S.L.",
     "description": "Common ESLint configuration for Nectis.",
-    "license": "SEE LICENSE IN LICENSE FILE",
+    "license": "GNU General Public License v3.0 with Commons Clause",
     "private": false,
     "repository": {
         "type": "git",
