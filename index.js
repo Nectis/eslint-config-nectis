@@ -268,7 +268,7 @@ module.exports = {
         // ESLint: ECMAScript 6 - These rules relate to ES6, also known as ES2015.
         "arrow-body-style": "warn",
         "arrow-parens": "warn",
-        "arrow-spacing": "error",
+        "arrow-spacing": "warn",
         "constructor-super": "error",
         "generator-star-spacing": "error",
         "no-class-assign": "error",
