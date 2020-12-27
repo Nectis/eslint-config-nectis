@@ -1,6 +1,6 @@
 /**
  * @author Jonathan Terrell for Springbrook S.L.
- * @license "GNU General Public License v3.0 with Commons Clause"
+ * @license "SEE LICENSE IN LICENSE.md"
  */
 
 module.exports = {
