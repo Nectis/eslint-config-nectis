@@ -1,8 +1,3 @@
-/**
- * @author Jonathan Terrell for Springbrook S.L.
- * @license "SEE LICENSE IN LICENSE.md"
- */
-
 module.exports = {
     "env": {
         "browser": true,
