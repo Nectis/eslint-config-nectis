@@ -9,7 +9,10 @@
         "url": "git+https://github.com/Nectis/eslint-config-nectis.git"
     },
     "main": "index.js",
-    "version": "0.1.1",
+    "version": "0.1.2",
+    "keywords": [
+        "nectis"
+    ],
     "devDependencies": {
         "eslint": "^7.15.0",
         "grunt": "^1.3.0",
