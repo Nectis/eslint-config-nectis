@@ -1,6 +1,6 @@
 # Common ESLint Configuration for Nectis
 
-Common ESLint configuration for Nectis.
+The common ESLint configuration for Nectis.
 
 ## Commands
 
