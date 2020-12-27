@@ -27,7 +27,7 @@ module.exports = (_grunt) => {
         // // },
 
         run: {
-            lint: { args: ['eslint', '*.js'], cmd: 'npx' },
+            lint: { args: ['eslint', 'index.js'], cmd: 'npx' },
             outdated: { args: ['npm', 'outdated'], cmd: 'npx' },
             publish: { args: ['publish'], cmd: 'npx' },
             test: { args: ['WARNING: No tests implemented.'], cmd: 'echo' },
