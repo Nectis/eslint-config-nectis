@@ -1,13 +1,11 @@
 module.exports = {
     "env": {
         "browser": true,
-        // "commonjs": true,
         "es6": true,
         "node": true
     },
     "extends": [
-        // "eslint:recommended",
-        // "standard"
+        "standard"
     ],
     "globals": {},
     "parserOptions": {
@@ -16,7 +14,8 @@ module.exports = {
     },
     "plugins": [
         'import',
-        'standard'
+        'node',
+        'promise'
     ],
     "root": true,
     "rules": {
