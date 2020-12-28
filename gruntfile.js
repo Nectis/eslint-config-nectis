@@ -9,23 +9,6 @@ module.exports = (_grunt) => {
                 pushTo: 'origin'
             }
         },
-
-        // TODO: prompt: {
-        // //     commit: {
-        // //         options: {
-        // //             questions: [{
-        // //                 config: 'commitMessage',
-        // //                 default: () => {
-        // //                     const pkg = _grunt.file.readJSON('package.json');
-        // //                     return `Release v${pkg.version}`;
-        // //                 },
-        // //                 message: 'Commit Message',
-        // //                 type: 'input'
-        // //             }]
-        // //         }
-        // //     }
-        // // },
-
         run: {
             lint: { args: ['eslint', 'index.js'], cmd: 'npx' },
             outdated: { args: ['npm', 'outdated'], cmd: 'npx' },
@@ -38,7 +21,6 @@ module.exports = (_grunt) => {
     // Load external tasks.
     _grunt.loadNpmTasks('grunt-bump');
     _grunt.loadNpmTasks('grunt-run');
-    // _grunt.loadNpmTasks('grunt-prompt');
 
     // Register local tasks.
     _grunt.registerTask('build', ['run:publish']);
@@ -46,7 +28,6 @@ module.exports = (_grunt) => {
     _grunt.registerTask('outdated', ['run:outdated']);
     _grunt.registerTask('release', ['bump', 'run:publish']);
     _grunt.registerTask('sync', ['bump']);
-    // _grunt.registerTask('syncWithMessage', ['bump-only', 'prompt:commit', 'bump-commit']);
     _grunt.registerTask('test', ['run:test']);
     _grunt.registerTask('update', ['run:update']);
 };
