@@ -308,10 +308,6 @@ module.exports = {
         "import/named": "error",
         "import/namespace": "error",
         "import/no-extraneous-dependencies": "off",
-        "import/no-unresolved": "off",
-
-        // Standard
-        "standard/array-bracket-even-spacing": "warn",
-        "standard/object-curly-even-spacing": ["warn", "either"]
+        "import/no-unresolved": "off"
     }
 };
