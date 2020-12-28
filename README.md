@@ -13,9 +13,3 @@ The following commands are implemented in gruntfile.js. The key sequences are VS
 - sync (cmd+shift+s) - Synchronise with git repository.
 - test (cmd+shift+t) - Run the tests.
 - update (cmd+shift+u) - Update dependencies to latest version.
-
-## Pending
-
-- eslint-config-standard no implemented.
-- eslint-plugin-node no implemented.
-- eslint-plugin-promise no implemented.
