@@ -2,7 +2,7 @@
 
 The common ESLint configuration for Nectis.
 
-## Commands
+## Project Management Commands
 
 The following commands are implemented in gruntfile.js. The key sequences are VS Code keyboard shortcuts.
 
