@@ -218,7 +218,7 @@ module.exports = {
         "no-mixed-operators": "warn",
         "no-mixed-spaces-and-tabs": "error",
         "no-multi-assign": "error",
-        "no-multiple-empty-lines": "error",
+        "no-multiple-empty-lines": "warn",
         "no-negated-condition": "error",
         "no-nested-ternary": "off",
         "no-new-object": "warn",
