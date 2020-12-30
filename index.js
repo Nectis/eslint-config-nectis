@@ -227,7 +227,7 @@ module.exports = {
         "no-tabs": "error",
         "no-ternary": "off",
         "no-trailing-spaces": "warn",
-        "no-underscore-dangle": ["warn", { "allow": ["__nectisContextTrace__", "__nectisData__"] }],
+        "no-underscore-dangle": ["warn", { "allow": ["_id", "__nectisContextTrace__", "__nectisData__"] }],
         "no-unneeded-ternary": "warn",
         "no-whitespace-before-property": "warn",
         "nonblock-statement-body-position": "error",
