@@ -1,5 +1,4 @@
 module.exports = (_grunt) => {
-
     // Initialise configuration.
     _grunt.initConfig({
         bump: {
@@ -10,6 +9,7 @@ module.exports = (_grunt) => {
             }
         },
         run: {
+            licenceCheck: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
             lint: { args: ['eslint', 'index.js'], cmd: 'npx' },
             outdated: { args: ['npm', 'outdated'], cmd: 'npx' },
             publish: { args: ['publish'], cmd: 'npx' },
@@ -24,6 +24,7 @@ module.exports = (_grunt) => {
 
     // Register local tasks.
     _grunt.registerTask('build', ['run:publish']);
+    _grunt.registerTask('licenceCheck', ['run:licenceCheck']);
     _grunt.registerTask('lint', ['run:lint']);
     _grunt.registerTask('outdated', ['run:outdated']);
     _grunt.registerTask('release', ['bump', 'run:publish']);

@@ -1,19 +1,19 @@
 {
     "name": "@nectis/eslint-config-nectis",
-    "author": "Jonathan Terrell for Springbrook S.L.",
     "description": "The common ESLint configuration for Nectis.",
+    "author": "Jonathan Terrell <jonathan.terrell@springbrook.es>",
     "license": "SEE LICENSE IN LICENSE.md",
-    "private": false,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Nectis/eslint-config-nectis.git"
     },
-    "main": "./index.js",
-    "version": "0.1.23",
     "keywords": [
         "nectis",
         "eslint"
     ],
+    "main": "./index.js",
+    "private": false,
+    "version": "0.1.24",
     "devDependencies": {
         "eslint": "^7.15.0",
         "grunt": "^1.3.0",

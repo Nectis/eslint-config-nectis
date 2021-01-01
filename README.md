@@ -8,6 +8,7 @@ The following commands are implemented in gruntfile.js. The key sequences are VS
 
 - audit (cmd+shift+a) - Audit the project dependencies.
 - build (cmd+shift+b) - Build the project.
+- licenceCheck (cmd+shift+k) - Check the licenses used within the project.
 - lint (cmd+shift+l) - Lint the project.
 - outdated (cmd+shift+o) - Check for outdated dependencies.
 - release (cmd+shift+r) - Release the project.
