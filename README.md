@@ -1,6 +1,6 @@
 # Common ESLint Configuration for Nectis
 
-The common ESLint configuration for Nectis.
+The common ESLint configuration used by all Nectis projects.
 
 ## Project Management Commands
 

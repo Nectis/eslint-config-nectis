@@ -28,10 +28,11 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/@eslint/eslintrc",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@nectis/eslint-config-nectis@0.1.23": {
+  "@nectis/eslint-config-nectis@0.1.24": {
     "licenses": "MIT*",
     "repository": "https://github.com/Nectis/eslint-config-nectis",
-    "publisher": "Jonathan Terrell for Springbrook S.L.",
+    "publisher": "Jonathan Terrell",
+    "email": "jonathan.terrell@springbrook.es",
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/LICENSE.md"
   },
@@ -62,6 +63,13 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/ajv",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/ajv/LICENSE"
   },
+  "ajv@7.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ajv-validator/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/ajv",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/ajv/LICENSE"
+  },
   "ansi-colors@4.1.1": {
     "licenses": "MIT",
     "repository": "https://github.com/doowb/ansi-colors",
@@ -70,23 +78,14 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/ansi-colors",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/ansi-colors/LICENSE"
   },
-  "ansi-regex@4.1.0": {
-    "licenses": "MIT",
-    "repository": "https://github.com/chalk/ansi-regex",
-    "publisher": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com",
-    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/ansi-regex",
-    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/ansi-regex/license"
-  },
   "ansi-regex@5.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/chalk/ansi-regex",
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com",
-    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/ansi-regex",
-    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/ansi-regex/license"
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string-width/node_modules/ansi-regex",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string-width/node_modules/ansi-regex/license"
   },
   "ansi-styles@3.2.1": {
     "licenses": "MIT",
@@ -130,7 +129,7 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/array.prototype.flat",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/array.prototype.flat/LICENSE"
   },
-  "astral-regex@1.0.0": {
+  "astral-regex@2.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/kevva/astral-regex",
     "publisher": "Kevin Mårtensson",
@@ -287,7 +286,7 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/doctrine",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/doctrine/LICENSE"
   },
-  "emoji-regex@7.0.3": {
+  "emoji-regex@8.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/mathiasbynens/emoji-regex",
     "publisher": "Mathias Bynens",
@@ -420,7 +419,7 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/eslint-visitor-keys",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/eslint-visitor-keys/LICENSE"
   },
-  "eslint@7.15.0": {
+  "eslint@7.17.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "publisher": "Nicholas C. Zakas",
@@ -656,12 +655,12 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/ignore",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/ignore/LICENSE-MIT"
   },
-  "import-fresh@3.2.2": {
+  "import-fresh@3.3.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/import-fresh",
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com",
+    "url": "https://sindresorhus.com",
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/import-fresh",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/import-fresh/license"
   },
@@ -729,14 +728,14 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/is-extglob",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/is-extglob/LICENSE"
   },
-  "is-fullwidth-code-point@2.0.0": {
+  "is-fullwidth-code-point@3.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com",
-    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/slice-ansi/node_modules/is-fullwidth-code-point",
-    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/slice-ansi/node_modules/is-fullwidth-code-point/license"
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/is-fullwidth-code-point",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/is-fullwidth-code-point/license"
   },
   "is-glob@4.0.1": {
     "licenses": "MIT",
@@ -817,6 +816,13 @@
     "publisher": "Evgeny Poberezkin",
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/json-schema-traverse",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/json-schema-traverse/LICENSE"
+  },
+  "json-schema-traverse@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/json-schema-traverse",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/json-schema-traverse/LICENSE"
   },
   "json-stable-stringify-without-jsonify@1.0.1": {
     "licenses": "MIT",
@@ -1130,6 +1136,15 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/regexpp",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/regexpp/LICENSE"
   },
+  "require-from-string@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floatdrop/require-from-string",
+    "publisher": "Vsevolod Strukchinsky",
+    "email": "floatdrop@gmail.com",
+    "url": "github.com/floatdrop",
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/require-from-string",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/require-from-string/license"
+  },
   "resolve-from@4.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/resolve-from",
@@ -1193,7 +1208,7 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/shebang-regex",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/shebang-regex/license"
   },
-  "slice-ansi@2.1.0": {
+  "slice-ansi@4.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/chalk/slice-ansi",
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/slice-ansi",
@@ -1241,14 +1256,14 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/argparse/node_modules/sprintf-js",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/argparse/node_modules/sprintf-js/LICENSE"
   },
-  "string-width@3.1.0": {
+  "string-width@4.2.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/string-width",
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com",
-    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/string-width",
-    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/string-width/license"
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string-width",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string-width/license"
   },
   "string.prototype.trimend@1.0.3": {
     "licenses": "MIT",
@@ -1266,23 +1281,14 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string.prototype.trimstart",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string.prototype.trimstart/LICENSE"
   },
-  "strip-ansi@5.2.0": {
-    "licenses": "MIT",
-    "repository": "https://github.com/chalk/strip-ansi",
-    "publisher": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com",
-    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/strip-ansi",
-    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/table/node_modules/strip-ansi/license"
-  },
   "strip-ansi@6.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/chalk/strip-ansi",
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com",
-    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/strip-ansi",
-    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/eslint/node_modules/strip-ansi/license"
+    "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string-width/node_modules/strip-ansi",
+    "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/string-width/node_modules/strip-ansi/license"
   },
   "strip-bom@3.0.0": {
     "licenses": "MIT",
@@ -1320,7 +1326,7 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/supports-color",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/supports-color/license"
   },
-  "table@5.4.6": {
+  "table@6.0.6": {
     "licenses": "BSD-3-Clause",
     "repository": "https://github.com/gajus/table",
     "publisher": "Gajus Kuizinas",

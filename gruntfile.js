@@ -9,7 +9,9 @@ module.exports = (_grunt) => {
             }
         },
         run: {
-            licenceCheck: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
+            audit: { args: ['npm', 'audit'], cmd: 'npx' },
+            licenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
+            licenseNLF: { args: ['nlf', '-d'], cmd: 'npx' },
             lint: { args: ['eslint', 'index.js'], cmd: 'npx' },
             outdated: { args: ['npm', 'outdated'], cmd: 'npx' },
             publish: { args: ['publish'], cmd: 'npx' },
@@ -23,8 +25,9 @@ module.exports = (_grunt) => {
     _grunt.loadNpmTasks('grunt-run');
 
     // Register local tasks.
+    _grunt.registerTask('audit', ['run:audit']);
     _grunt.registerTask('build', ['run:publish']);
-    _grunt.registerTask('licenceCheck', ['run:licenceCheck']);
+    _grunt.registerTask('licenseCheck', ['run:licenseChecker', 'run:licenseNLF']);
     _grunt.registerTask('lint', ['run:lint']);
     _grunt.registerTask('outdated', ['run:outdated']);
     _grunt.registerTask('release', ['bump', 'run:publish']);
