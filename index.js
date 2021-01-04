@@ -178,7 +178,7 @@ module.exports = {
         "comma-style": "error",
         "computed-property-spacing": "error",
         "consistent-this": ["warn", "self"],
-        "eol-last": "error",
+        "eol-last": "warn",
         "func-call-spacing": "error",
         "func-name-matching": "warn",
         "func-names": "warn",
