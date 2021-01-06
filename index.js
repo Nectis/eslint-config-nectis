@@ -145,7 +145,7 @@ module.exports = {
         "prefer-regex-literals": "error",
         "radix": "error",
         "require-await": "warn",
-        "vars-on-top": "error",
+        "vars-on-top": "warn",
         "wrap-iife": "error",
         "yoda": "error",
 
