@@ -13,7 +13,7 @@
     ],
     "main": "./index.js",
     "private": false,
-    "version": "0.1.29",
+    "version": "0.1.30",
     "devDependencies": {
         "eslint": "^7.17.0",
         "grunt": "^1.3.0",
