@@ -237,7 +237,7 @@ module.exports = {
         "one-var": ["warn", { "var": "never", "let": "never", "const": "never" }],
         "one-var-declaration-per-line": "warn",
         "operator-assignment": "error",
-        "operator-linebreak": "error",
+        "operator-linebreak": "warn",
         "padded-blocks": "off",
         "padding-line-between-statements": "error",
         "prefer-exponentiation-operator": "error",
