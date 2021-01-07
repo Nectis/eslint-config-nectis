@@ -179,7 +179,7 @@ module.exports = {
         "computed-property-spacing": "error",
         "consistent-this": ["warn", "self"],
         "eol-last": "warn",
-        "func-call-spacing": "error",
+        "func-call-spacing": "warn",
         "func-name-matching": "warn",
         "func-names": "warn",
         "func-style": "warn",
