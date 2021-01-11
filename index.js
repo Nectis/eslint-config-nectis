@@ -76,7 +76,7 @@ module.exports = {
         "complexity": ["error", 35],
         "consistent-return": "warn",
         "curly": "warn",
-        "default-case": "warn",
+        "default-case": "off",
         "default-case-last": "warn",
         "default-param-last": "error",
         "dot-location": ["error", "property"],
