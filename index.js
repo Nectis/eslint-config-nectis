@@ -134,7 +134,7 @@ module.exports = {
         "no-unused-labels": "error",
         "no-useless-call": "error",
         "no-useless-catch": "warn",
-        "no-useless-concat": "error",
+        "no-useless-concat": "warn",
         "no-useless-escape": "error",
         "no-useless-return": "warn",
         "no-void": "error",
