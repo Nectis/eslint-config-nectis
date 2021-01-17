@@ -85,7 +85,7 @@ module.exports = {
         "grouped-accessor-pairs": "error",
         "guard-for-in": "error",
         "max-classes-per-file": ["warn", 5],
-        "no-alert": "error",
+        "no-alert": "warn",
         "no-caller": "error",
         "no-case-declarations": "error",
         "no-constructor-return": "error",
