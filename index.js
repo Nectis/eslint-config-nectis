@@ -80,7 +80,7 @@ module.exports = {
         "default-case-last": "warn",
         "default-param-last": "error",
         "dot-location": ["error", "property"],
-        "dot-notation": "error",
+        "dot-notation": "warn",
         "eqeqeq": "error",
         "grouped-accessor-pairs": "error",
         "guard-for-in": "error",
