@@ -195,7 +195,7 @@ module.exports = {
         "keyword-spacing": "warn",
         "line-comment-position": "off",
         "linebreak-style": "error",
-        "lines-around-comment": "warn",
+        "lines-around-comment": "off",
         "lines-between-class-members": "warn",
         "max-depth": ["warn", 5],
         "max-len": ["warn", 150],
