@@ -172,7 +172,7 @@ module.exports = {
         "block-spacing": "warn",
         "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
         "camelcase": "warn",
-        "capitalized-comments": ["warn", "always", { "ignoreConsecutiveComments": true }],
+        "capitalized-comments": ["off", "always", { "ignoreConsecutiveComments": true }],
         "comma-dangle": "warn",
         "comma-spacing": "warn",
         "comma-style": "error",
