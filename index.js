@@ -123,7 +123,7 @@ module.exports = {
         "no-redeclare": "error",
         "no-restricted-properties": "error",
         "no-return-assign": "error",
-        "no-return-await": "error",
+        "no-return-await": "warn",
         "no-script-url": "error",
         "no-self-assign": "error",
         "no-self-compare": "error",
