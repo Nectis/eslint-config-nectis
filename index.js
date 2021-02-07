@@ -167,7 +167,7 @@ module.exports = {
 
         // ESLint: Stylistic Issues - These rules relate to style guidelines.
         "array-bracket-newline": "off",
-        "array-bracket-spacing": ["warn", "always"],
+        "array-bracket-spacing": "warn",
         "array-element-newline": "off",
         "block-spacing": "warn",
         "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
