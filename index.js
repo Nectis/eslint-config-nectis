@@ -199,7 +199,7 @@ module.exports = {
         "lines-between-class-members": "warn",
         "max-depth": ["warn", 5],
         "max-len": ["warn", 150],
-        "max-lines": ["warn", 150],
+        "max-lines": ["warn", 1500],
         "max-lines-per-function": ["warn", 80],
         "max-nested-callbacks": "error",
         "max-params": ["warn", { "max": 15 }],
