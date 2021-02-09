@@ -65,7 +65,7 @@ module.exports = {
         "no-useless-backreference": "error",
         "require-atomic-updates": "warn",
         "use-isnan": "error",
-        "valid-jsdoc": ["warn", { "requireReturn": false }],
+        "valid-jsdoc": ["warn", { "requireParamType": false, "requireReturn": false }],
         "valid-typeof": "error",
 
         // ESLint: Best Practices - These rules relate to better ways of doing things to help avoid problems.
