@@ -198,7 +198,7 @@ module.exports = {
         "lines-around-comment": "off",
         "lines-between-class-members": "warn",
         "max-depth": ["warn", 5],
-        "max-len": ["warn", 150],
+        "max-len": ["warn", 174],
         "max-lines": ["warn", 1500],
         "max-lines-per-function": ["warn", 120],
         "max-nested-callbacks": "error",
