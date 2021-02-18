@@ -1,4 +1,10 @@
-module.exports = {
+/**
+ * @author Jonathan Terrell <jonathan.terrell@springbrook.es>
+ * @copyright Copyright (c) 2019-2021 Springbrook S.L.
+ * @license "Apache-2.0 with Commons Clause"
+ */
+
+ module.exports = {
     "env": {
         "browser": true,
         "es6": true,
