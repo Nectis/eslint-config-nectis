@@ -28,7 +28,7 @@
     "path": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/@eslint/eslintrc",
     "licenseFile": "/Users/jonathanterrell/Nectis/Github/eslint-config-nectis/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@terrelljm/eslint-config-nectis@0.1.59": {
+  "@nectis/eslint-config-nectis@0.1.64": {
     "licenses": "Apache*",
     "repository": "https://github.com/Nectis/eslint-config-nectis",
     "publisher": "Jonathan Terrell",

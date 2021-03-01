@@ -1,6 +1,17 @@
-module.exports = (_grunt) => {
+/**
+ * @author Jonathan Terrell <jonathan.terrell@springbrook.es>
+ * @copyright Copyright (c) 2019-2021 Springbrook S.L.
+ * @license "Apache-2.0 with Commons Clause"
+ */
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Exports
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+module.exports = (grunt) => {
     // Initialise configuration.
-    _grunt.initConfig({
+    grunt.initConfig({
+        // Bump configuration.
         bump: {
             options: {
                 commitFiles: ['-a'],
@@ -8,6 +19,7 @@ module.exports = (_grunt) => {
                 pushTo: 'origin'
             }
         },
+        // Run configuration.
         run: {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             licenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
@@ -19,19 +31,17 @@ module.exports = (_grunt) => {
             update: { args: ['npm', 'update', '--save/--save-dev'], cmd: 'npx' }
         }
     });
-
     // Load external tasks.
-    _grunt.loadNpmTasks('grunt-bump');
-    _grunt.loadNpmTasks('grunt-run');
-
+    grunt.loadNpmTasks('grunt-bump');
+    grunt.loadNpmTasks('grunt-run');
     // Register local tasks.
-    _grunt.registerTask('audit', ['run:audit']);
-    _grunt.registerTask('build', ['run:publish']);
-    _grunt.registerTask('licenseCheck', ['run:licenseChecker', 'run:licenseNLF']);
-    _grunt.registerTask('lint', ['run:lint']);
-    _grunt.registerTask('outdated', ['run:outdated']);
-    _grunt.registerTask('release', ['bump', 'run:publish']);
-    _grunt.registerTask('sync', ['bump']);
-    _grunt.registerTask('test', ['run:test']);
-    _grunt.registerTask('update', ['run:update']);
+    grunt.registerTask('audit', ['run:audit']);
+    grunt.registerTask('build', ['run:publish']);
+    grunt.registerTask('licenseCheck', ['run:licenseChecker', 'run:licenseNLF']);
+    grunt.registerTask('lint', ['run:lint']);
+    grunt.registerTask('outdated', ['run:outdated']);
+    grunt.registerTask('release', ['bump', 'run:publish']);
+    grunt.registerTask('sync', ['bump']);
+    grunt.registerTask('test', ['run:test']);
+    grunt.registerTask('update', ['run:update']);
 };
