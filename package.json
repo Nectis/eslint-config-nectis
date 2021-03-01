@@ -1,5 +1,5 @@
 {
-    "name": "@terrelljm/eslint-config-nectis",
+    "name": "@nectis/eslint-config-nectis",
     "description": "Common ESLint configuration for Nectis.",
     "author": "Jonathan Terrell <jonathan.terrell@springbrook.es>",
     "license": "SEE LICENSE IN LICENSE.md",
@@ -12,7 +12,7 @@
         "eslint"
     ],
     "main": "./index.js",
-    "version": "0.1.62",
+    "version": "0.1.63",
     "devDependencies": {
         "eslint": "^7.17.0",
         "grunt": "^1.3.0",
