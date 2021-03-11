@@ -214,7 +214,7 @@
         "multiline-ternary": "off",
         "new-cap": ["warn", { "capIsNewExceptions": ["Collection", "Count", "Create", "CreateKey", "Database", "Databases", "Delete", "Documents", "Get", "Lambda", "Let", "Map", "Merge", "Paginate", "Ref", "Replace", "Select", "Var"], "properties": false }],
         "new-parens": "error",
-        "newline-per-chained-call": "warn",
+        "newline-per-chained-call": "off",
         "no-array-constructor": "error",
         "no-bitwise": "error",
         "no-continue": "off",
