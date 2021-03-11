@@ -248,7 +248,7 @@
         "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "error",
         "quote-props": ["warn", "as-needed"],
-        "quotes": ["warn", "single"],
+        "quotes": ["warn", "single", { "avoidEscape": true }],
         "semi": ["warn", "always"],
         "semi-spacing": "warn",
         "semi-style": "error",
