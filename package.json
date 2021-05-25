@@ -1,29 +1,29 @@
 {
-    "name": "@nectis/eslint-config-nectis",
-    "description": "Common ESLint configuration for Nectis.",
-    "author": "Jonathan Terrell <jonathan.terrell@springbrook.es>",
-    "license": "SEE LICENSE IN LICENSE.md",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Nectis/eslint-config-nectis.git"
-    },
-    "keywords": [
-        "nectis",
-        "eslint"
-    ],
-    "main": "./index.js",
-    "version": "0.1.71",
-    "devDependencies": {
-        "eslint": "^7.17.0",
-        "grunt": "^1.3.0",
-        "grunt-bump": "^0.8.0",
-        "grunt-run": "^0.8.1"
-    },
-    "dependencies": {
-        "eslint-config-standard": "^16.0.2",
-        "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.2.1"
-    },
-    "scripts": {}
+  "name": "@nectis/eslint-config-nectis",
+  "description": "Common ESLint configuration for Nectis.",
+  "author": "Jonathan Terrell <jonathan.terrell@springbrook.es>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nectis/eslint-config-nectis.git"
+  },
+  "keywords": [
+    "nectis",
+    "eslint"
+  ],
+  "main": "./index.js",
+  "version": "0.1.72",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "grunt": "^1.3.0",
+    "grunt-bump": "^0.8.0",
+    "grunt-run": "^0.8.1"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "scripts": {}
 }
